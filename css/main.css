@@ -21,6 +21,7 @@ body {
 }
 
 img {
+  display: inline-block;
   width: 100%;
 }
 
@@ -29,9 +30,8 @@ img:first-child {
 }
 
 img:nth-child(2) {
-  display:none;
+  display: none;
 }
-
 
 img:nth-child(3) {
   float: left;
@@ -47,18 +47,40 @@ img:nth-child(5) {
 
 @media only screen and (min-width: 25em) {
 
+  img {
+    width: 66.6666%;
+  }
 
+  img:first-child {
+    display: block;
+    width: 100%;
+  }
 
+  img:nth-child(2) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(3) {
+    display:block;
+    float: left;
+  }
+
+  img:nth-child(4) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(5) {
+    display: block;
+    float: left;
+  }
 }
 
 @media only screen and (min-width: 38em) {
 
-
-
 }
 
 @media only screen and (min-width: 60em) {
-
-
 
 }
