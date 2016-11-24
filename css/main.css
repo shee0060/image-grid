@@ -21,7 +21,7 @@ body {
 }
 
 img {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -48,7 +48,7 @@ img:nth-child(5) {
 @media only screen and (min-width: 25em) {
 
   img {
-    width: 66.6666%;
+    width: 50%;
   }
 
   img:first-child {
@@ -62,7 +62,7 @@ img:nth-child(5) {
   }
 
   img:nth-child(3) {
-    display:block;
+    display: block;
     float: left;
   }
 
@@ -79,8 +79,63 @@ img:nth-child(5) {
 
 @media only screen and (min-width: 38em) {
 
+  img {
+    width: 33.3333%;
+  }
+
+  img:first-child {
+    display: block;
+    width: 100%;
+  }
+
+  img:nth-child(2) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(3) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(4) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(5) {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
+  img {
+    width: 33.3333%;
+  }
+
+  img:first-child {
+    display: inline-block;
+    float: left;
+  }
+
+  img:nth-child(2) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(3) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(4) {
+    display: block;
+    float: left;
+  }
+
+  img:nth-child(5) {
+    display: block;
+    float: left;
+  }
 }
